@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #F03A47;
+  height: 20%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+header .i-logoh img {
+  height: 100px;
+}
+header .i-nav {
+  width: 400px;
+  align-self: center;
+  padding: 3px 0px;
+}
+header .i-nav nav {
+  display: flex;
+  justify-content: space-around;
+}
+header .i-nav nav .nav-link {
+  display: flex;
+  font-size: 10px;
+  text-decoration: none;
+  color: white;
+}
+
+main {
+  background-image: linear-gradient(rgba(39, 110, 191, 0.4901960784), rgba(39, 110, 191, 0.4274509804)), url(../img/lightshow-1573327_1920.jpg);
+  background-repeat: none;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+/*# sourceMappingURL=style.css.map */
